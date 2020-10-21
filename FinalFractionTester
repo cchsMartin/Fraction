@@ -1,9 +1,9 @@
-import java.util.Scanner;
+
 import java.lang.Math;
 public class FractionTester {
 
 	public static void main(String[] args) {
-		Scanner yourMom = new Scanner(System.in);
+		
 	
 		Fraction a = new Fraction(3, 8);
 		Fraction b = new Fraction(2, 4);
