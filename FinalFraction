@@ -34,14 +34,14 @@ public class Fraction {
 	}
 	
 	public Fraction add(Fraction other) {
-		Fraction result3 = new Fraction(num + other.num , denom * other.denom);
+		Fraction result3 = new Fraction((num * other.denom) + (other.num * denom) , denom * other.denom);
 		return result3;
 	}
 	public String toString2() {
 		return "" + num + "/" + denom;
 	}
 	public Fraction subtract(Fraction other) {
-		Fraction result3 = new Fraction(num - other.num , denom * other.denom);
+		Fraction result3 = new Fraction((num * other.denom) - (other.num * denom) , denom * other.denom);
 		return result3;
 
 	}
@@ -49,8 +49,3 @@ public class Fraction {
 		return "" + num + "/" + denom;
 	}
 }
-
-	
-			
-		
-
