@@ -17,6 +17,7 @@ public class FractionTester {
 		System.out.println(a + " / " + b + " = " + d);
 		System.out.println(a + " + " + b + " = " + e );
 		System.out.println(a + " - " + b + " = " + f);
+		//these print statements could be in a method in your FinalFraction class
 	}
 }
 
